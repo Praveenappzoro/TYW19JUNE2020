@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Services</key>
+	<dict>
+		<key>DEMOLITION</key>
+		<array>
+			<string>Driveway Removal</string>
+			<string>Patio Removal</string>
+			<string>House Removal(small)</string>
+			<string>Shed Removal</string>
+		</array>
+		<key>EXCAVATION</key>
+		<array>
+			<string>Dirt Removal(swimming pool, driveway, other construction)</string>
+			<string>Dirt Backfill(retaining wall, swimming pool, make yard level)</string>
+			<string>Excessive Landscape Removal(bush/tree removal, boulders, walkways)</string>
+		</array>
+		<key>GRADING</key>
+		<array>
+			<string>Backfill</string>
+			<string>Land Leveling</string>
+		</array>
+		<key>CONCRETE</key>
+		<array>
+			<string>Replace Damaged Sidewalk</string>
+			<string>Replace Damaged Driveway</string>
+			<string>Replace Patio</string>
+			<string>New Sidewalk</string>
+			<string>New Driveway</string>
+			<string>New Patio</string>
+		</array>
+		<key>HARDSCAPE</key>
+		<array>
+			<string>Driveway Pavers Design</string>
+			<string>Retaining Wall Design</string>
+			<string>Sidewalk Pavers Design</string>
+			<string>Swimming Pool Pavers Design</string>
+			<string>Patio Pavers Design</string>
+			<string>Street Pavers Design</string>
+			<string>Mailbox Pavers Design</string>
+		</array>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LastPageJobVC" customModule="TruckYourWay" customModuleProvider="target">
+            <connections>
+                <outlet property="labelMessage" destination="jHa-BN-56f" id="dLC-2c-Guj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" userLabel="Main View">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mef-0b-Cgr" userLabel="My View">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="OVw-n1-fls" userLabel="Logo View">
+                            <rect key="frame" x="0.0" y="80" width="320" height="160"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logomain" translatesAutoresizingMaskIntoConstraints="NO" id="LiP-wO-9pD">
+                                    <rect key="frame" x="10" y="10" width="300" height="140"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="LiP-wO-9pD" secondAttribute="bottom" constant="10" id="1oq-Z1-qjN"/>
+                                <constraint firstItem="LiP-wO-9pD" firstAttribute="leading" secondItem="OVw-n1-fls" secondAttribute="leading" constant="10" id="BNY-x8-oyl"/>
+                                <constraint firstAttribute="height" constant="160" id="WXU-6r-ei6"/>
+                                <constraint firstItem="LiP-wO-9pD" firstAttribute="top" secondItem="OVw-n1-fls" secondAttribute="top" constant="10" id="a4b-yP-geK"/>
+                                <constraint firstAttribute="trailing" secondItem="LiP-wO-9pD" secondAttribute="trailing" constant="10" id="oIP-SE-NFC"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHa-BN-56f">
+                            <rect key="frame" x="10" y="290" width="300" height="101.5"/>
+                            <string key="text">Thank you for YOUR LATER order. Please refer to YOUR NOW/LATER tab for details of YOUR LATER job. Please contact Truck Your Way for changes to YOUR order. </string>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7b-wy-3uI" customClass="CustomButton" customModule="TruckYourWay" customModuleProvider="target">
+                            <rect key="frame" x="100" y="491.5" width="120" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="120" id="PTB-f4-Hzh"/>
+                                <constraint firstAttribute="height" constant="50" id="RDV-g2-z7R"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <state key="normal" title="OKAY">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" red="0.61176470589999998" green="0.74509803919999995" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="25"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="doneButtonActionWithSender:" destination="-1" eventType="touchUpInside" id="clJ-8c-hEV"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="OVw-n1-fls" secondAttribute="trailing" id="2bm-i3-0kA"/>
+                        <constraint firstItem="w7b-wy-3uI" firstAttribute="centerX" secondItem="mef-0b-Cgr" secondAttribute="centerX" id="3Hk-wo-mqI"/>
+                        <constraint firstItem="w7b-wy-3uI" firstAttribute="centerX" secondItem="mef-0b-Cgr" secondAttribute="centerX" id="8qa-jp-XSw"/>
+                        <constraint firstItem="jHa-BN-56f" firstAttribute="top" secondItem="OVw-n1-fls" secondAttribute="bottom" constant="50" id="Cbp-yf-dbN"/>
+                        <constraint firstItem="w7b-wy-3uI" firstAttribute="top" secondItem="jHa-BN-56f" secondAttribute="bottom" constant="100" id="Jvo-Rj-zd5"/>
+                        <constraint firstItem="jHa-BN-56f" firstAttribute="leading" secondItem="mef-0b-Cgr" secondAttribute="leading" constant="10" id="WL1-Ac-yi4"/>
+                        <constraint firstAttribute="trailing" secondItem="jHa-BN-56f" secondAttribute="trailing" constant="10" id="Xxp-Ig-fPb"/>
+                        <constraint firstItem="OVw-n1-fls" firstAttribute="top" secondItem="mef-0b-Cgr" secondAttribute="top" constant="80" id="gpF-3i-q1H"/>
+                        <constraint firstItem="OVw-n1-fls" firstAttribute="leading" secondItem="mef-0b-Cgr" secondAttribute="leading" id="piU-zS-5vJ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="mef-0b-Cgr" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="15P-ag-1if"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mef-0b-Cgr" secondAttribute="trailing" id="4IN-lL-qh8"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="mef-0b-Cgr" secondAttribute="bottom" id="rVo-Q2-pn0"/>
+                <constraint firstItem="mef-0b-Cgr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="t3b-bG-84V"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="55.200000000000003" y="48.125937031484263"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logomain" width="250" height="101.5"/>
+    </resources>
+</document>

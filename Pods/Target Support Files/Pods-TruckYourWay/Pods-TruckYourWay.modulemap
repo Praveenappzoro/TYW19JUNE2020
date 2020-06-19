@@ -1,0 +1,6 @@
+framework module Pods_TruckYourWay {
+  umbrella header "Pods-TruckYourWay-umbrella.h"
+
+  export *
+  module * { export * }
+}

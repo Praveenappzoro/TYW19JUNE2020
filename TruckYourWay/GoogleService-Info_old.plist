@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>419600439961-ohrc0d6grqko9n6udipq1fddiddf38ct.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.419600439961-ohrc0d6grqko9n6udipq1fddiddf38ct</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAp8ThqxpjqE-jY5hSVLOZ02hATtTmVh88</string>
+	<key>GCM_SENDER_ID</key>
+	<string>419600439961</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.truckYourWay.Appzoro</string>
+	<key>PROJECT_ID</key>
+	<string>tywnew</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tywnew.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:419600439961:ios:fe61fa4ebeaee965</string>
+	<key>DATABASE_URL</key>
+	<string>https://tywnew.firebaseio.com</string>
+</dict>
+</plist>

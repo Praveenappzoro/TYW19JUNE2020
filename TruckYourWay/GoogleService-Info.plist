@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>127752563005-bjcd99va3b9e1i662pupv31aa7iop8c2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.127752563005-bjcd99va3b9e1i662pupv31aa7iop8c2</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>127752563005-1uet46lfq5ptfifovdu3pbc4diqrjimd.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDFQFVHtEjJSwayIRCa4eS9YVO7MJPvOXk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>127752563005</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.truckYourWay.Appzoro</string>
+	<key>PROJECT_ID</key>
+	<string>truckyourway-6c97c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>truckyourway-6c97c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:127752563005:ios:3ebc4d5d32bc2d10</string>
+	<key>DATABASE_URL</key>
+	<string>https://truckyourway-6c97c.firebaseio.com</string>
+</dict>
+</plist>
